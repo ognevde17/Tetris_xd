@@ -52,7 +52,7 @@ public:
     View() : matrix(10, std::vector<int>(10, 0)) {
     }
     void Demo() {
-        for (int i = 0; i < 10; ++i) {
+        for (int i = 0; i < 1; ++i) {
             for (int j = 0; j < 10; ++j) {
                 std::cout << matrix[i][j] << " ";
             }
