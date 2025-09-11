@@ -2,6 +2,24 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Debug tetris (g++)",
+      "type": "lldb",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "program": "${workspaceFolder}/build/Debug/tetris",
+      "args": [],
+      "preLaunchTask": "build:debug"
+    },
+    {
+      "name": "Run tetris (release)",
+      "type": "lldb",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "program": "${workspaceFolder}/build/Release/tetris",
+      "args": [],
+      "preLaunchTask": "build:release"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "lldb",
       "request": "launch",
